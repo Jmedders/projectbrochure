@@ -1,4 +1,11 @@
 body {
-  background: #002F2F; }
+  background: #EFECCA; }
+
+.coolheaderfont {
+  color: #002F2F;
+  font-size: 1.5em;
+  padding-right: 10px; }
+  .coolheaderfont:hover {
+    color: #C84663; }
 
 /*# sourceMappingURL=style.css.map */
