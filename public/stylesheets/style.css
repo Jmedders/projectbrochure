@@ -1,8 +1,8 @@
 body {
-  background: #EFECCA; }
+  background-image: url("https://s10.postimg.org/4tkixaund/Full_Size_Render_4.jpg"); }
 
 .coolheaderfont {
-  color: #002F2F;
+  color: #EFECCA;
   font-size: 1.5em;
   padding-right: 10px; }
   .coolheaderfont:hover {
@@ -18,5 +18,12 @@ body {
   height: 60vh;
   align-items: center;
   justify-content: center; }
+
+#websiteName {
+  color: #EFECCA; }
+
+.h1about {
+  color: #EFEECC;
+  text-align: center; }
 
 /*# sourceMappingURL=style.css.map */
