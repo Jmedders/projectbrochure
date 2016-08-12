@@ -8,4 +8,15 @@ body {
   .coolheaderfont:hover {
     color: #C84663; }
 
+#nameSelect {
+  width: 20%;
+  margin-left: 40%;
+  text-align: center; }
+
+#websiteNameContainer {
+  display: flex;
+  height: 60vh;
+  align-items: center;
+  justify-content: center; }
+
 /*# sourceMappingURL=style.css.map */
