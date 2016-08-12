@@ -28,3 +28,16 @@ body {
   color: #EFEECC;
   text-align: center;
 }
+.fontColor {
+  text-align: center;
+  color: $activeColor;
+  &:hover {
+    color: #EFECCA;
+  }
+}
+.centerButton{
+  float: center;
+}
+.centerPic{
+  margin-left: 35vw;
+}

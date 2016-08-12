@@ -26,4 +26,16 @@ body {
   color: #EFEECC;
   text-align: center; }
 
+.fontColor {
+  text-align: center;
+  color: #C84663; }
+  .fontColor:hover {
+    color: #EFECCA; }
+
+.centerButton {
+  float: center; }
+
+.centerPic {
+  margin-left: 35vw; }
+
 /*# sourceMappingURL=style.css.map */

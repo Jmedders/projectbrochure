@@ -1,4 +1,15 @@
-<h1 class="h1about">What is my capstone about?</h1>
-<button ng-click=>Click here to find out</button>
-<h3>Bringing people with shared taste in music together</h3>
-<input type="text" placeholder="Enter a favorite band of yours">
+  <h1 class="h1about">What is my capstone about?</h1>
+  <button class="centerButton" ng-click="view.change()"=>Click here to find out</button>
+  <h3 ng-show="view.showPlans" class="fontColor">Bringing people with shared taste in music together</h3>
+  <button class="centerButton" ng-click="view.changeShowMore()" ng-show="view.showPlans">... but how?</button>
+  <h3 ng-show="view.showMore" class="fontColor">
+    Great question! The idea is for people to enter some of their favorite bands
+    into a database. The app will search by proximity (say 50 miles), and find
+    other people in your area who are into the same type of music.
+  </h3>
+  <button class="centerButton" ng-show="view.showMore" ng-click="view.changeShowRest()">Meh..</button>
+  <h3 ng-show="view.showRest" class="fontColor">
+    The cool part is you two can chat, and bond over the music you love.
+    The rest is up to you. Go to concerts, share music, form a band.
+  </h3>
+  <img class="centerPic" ng-show="view.showRest" ng-src="http://i1.wp.com/www.backseatmafia.com/wp-content/uploads/2015/06/c1.jpg?resize=400%2C240" alt="">
