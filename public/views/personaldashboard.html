@@ -1,0 +1,10 @@
+<h1 class="fontColor">Want to listen to Spotify? Type in an artist: </h1>
+
+<div class="flexystuffDashboard">
+  <input type="text" ng-model="view.bandName" class="centeredButton">
+  <button ng-click="view.getTunes(view.bandName)">Enter</button>
+  <br>
+  <br>
+  <br>
+  <div ng-bind-html="view.info"></div>
+</div>

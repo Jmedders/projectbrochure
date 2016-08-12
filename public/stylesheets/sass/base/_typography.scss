@@ -1,5 +1,6 @@
 body {
   background-image: url("https://s10.postimg.org/4tkixaund/Full_Size_Render_4.jpg");
+  background-size: 100vw;
 }
 .coolheaderfont {
   color: #EFECCA;
@@ -35,9 +36,11 @@ body {
     color: #EFECCA;
   }
 }
-.centerButton{
-  float: center;
-}
 .centerPic{
   margin-left: 35vw;
+}
+.flexystuffDashboard{
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
