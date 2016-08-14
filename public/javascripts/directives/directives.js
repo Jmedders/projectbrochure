@@ -5,3 +5,10 @@ app.directive('coolDirective', function(){
     controller: 'secondaryController'
   }
 })
+app.directive('anotherDirective', function(){
+  return {
+    restrict: 'E',
+    templateUrl: 'javascripts/directives/partials/anotherdirective.html',
+    controller: 'secondaryController'
+  }
+})
