@@ -28,3 +28,8 @@ app.controller('capstoneController', ['$scope', 'capstoneService', '$http', '$sc
   }
 
 }])
+
+app.controller('secondaryController', ['$scope', '$http', function($scope, $http) {
+  $scope.view = {};
+  $scope.view.kid = "andrei"
+}])
