@@ -31,6 +31,7 @@ app.controller('capstoneController', ['$scope', 'capstoneService', '$http', '$sc
 
 app.controller('secondaryController', ['$scope', '$http', function($scope, $http) {
   $scope.view = {};
+  $scope.kid = "Jeffrey"
   $scope.view.controls = "I'm from a controller"
   $scope.view.controlleraction = "another directive controller"
 }])
