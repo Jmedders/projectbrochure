@@ -10,7 +10,7 @@ app.directive('anotherDirective', function(){
     restrict: 'E',
     templateUrl: 'javascripts/directives/partials/anotherdirective.html',
     scope: {
-      kid: "="
+      kid: '='
     }
   }
 })
